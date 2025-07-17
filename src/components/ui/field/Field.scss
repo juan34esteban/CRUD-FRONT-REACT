@@ -1,0 +1,97 @@
+.mb-field {
+  min-height: 100px;
+
+  .mb-field-control {
+    border-radius: 12px;
+    border: 1px solid #686868;
+    min-height: 40px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    appearance: auto;
+
+    &::placeholder {
+      color: #1e1e1e;
+      opacity: 0.6;
+    }
+
+    &:focus,
+    &:hover {
+      border: 1px solid #204d99;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    &.is-invalid {
+      border-color: #dc3545;
+      background-position: right calc(0.375em + 0.6rem) center !important;
+    }
+
+    &:disabled {
+      background: #d9d9d9;
+      border: 1px solid #686868;
+      box-shadow: none;
+    }
+
+    option {
+      background-color: #ffffff;
+    }
+  }
+
+  .mb-input-group {
+    border-right: 0;
+
+    &:focus,
+    &:hover {
+      border-right: 0;
+      border-color: #686868;
+      box-shadow: none;
+    }
+
+    &.is-invalid {
+      border-color: #dc3545;
+    }
+
+    &:disabled {
+      border-right: 0;
+    }
+  }
+
+  .mb-input-group-text {
+    background-color: white;
+    border-radius: 12px;
+    border-color: #686868;
+
+    &:focus,
+    &:hover {
+      border-color: #686868;
+      box-shadow: none;
+    }
+
+    //No funciona con el span por eso se crea otro estilo aparte: mb-input-group-text-disabled
+    &:disabled {
+      background: #d9d9d9;
+      border-color: #686868;
+      box-shadow: none;
+    }
+  }
+
+  .mb-input-group-text-disabled {
+    background: #d9d9d9;
+    border-radius: 12px;
+    border-color: #686868;
+    box-shadow: none;
+  }
+}
+
+.form-check {
+  padding-left: 0.8em;
+}
+
+.form-check-inline {
+  margin-right: 0.5rem;
+}
+
+.form-check-input:checked {
+  background-color: #204d99;
+  border-color: #204d99;
+}

@@ -1,0 +1,107 @@
+.mb-btn {
+  font-size: 14px;
+
+  &.has-margin {
+    margin-bottom: 1em;
+  }
+
+  &.mb-btn-primary {
+    background: #204d99;
+    border: 0;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 45px;
+    height: 40px;
+    padding: 8px 16px;
+    color: white;
+
+    &:hover,
+    &:focus {
+      background: #003057;
+      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    }
+    &:disabled {
+      background: #a5a5a5;
+      box-shadow: none;
+    }
+  }
+
+  &.mb-btn-secondary {
+    color: #204d99;
+    border: 1px solid #204d99;
+    background: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 45px;
+    min-height: 40px;
+    padding: 8px 16px;
+    margin-right: 5px;
+
+    &:hover,
+    &:focus {
+      background: #204d99;
+      color: #ffff;
+      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    }
+    &:disabled {
+      background: white;
+      color: #a5a5a5;
+      border: 1px solid #a5a5a5;
+      box-shadow: none;
+    }
+  }
+
+  &.mb-btn-tertiary {
+    color: #003057;
+    border: 0;
+    background: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+
+    &:hover {
+      color: #4a6c87;
+    }
+    &:disabled {
+      color: #718ca2;
+    }
+  }
+
+  &.mb-btn-block {
+    width: 100%;
+  }
+
+  .icon {
+    border: 2px solid #003057;
+    color: #003057;
+    border-radius: 50%;
+    background: transparent;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+
+    span {
+      display: none;
+    }
+
+    &:hover,
+    &:focus {
+      background: #003057;
+      color: white;
+    }
+
+    &:disabled {
+      border-color: rgba(113, 140, 162, 0.1);
+      background: rgba(113, 140, 162, 0.4);
+      color: white;
+    }
+  }
+
+  .mb-btn-text {
+    margin-left: 0.5em;
+  }
+}

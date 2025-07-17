@@ -1,0 +1,55 @@
+.mb-table-container {
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 0.2rem;
+
+  .mb-table {
+    font-size: 14px;
+    th {
+      background-color: #003057;
+      color: #fff;
+      font-weight: 100;
+    }
+    td {
+      vertical-align: middle;
+      border-style: none;
+    }
+    tr {
+      background-color: #fff;
+    }
+  }
+
+  .mb-table-col {
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 100%;
+
+    .form-group {
+      margin-bottom: 0 !important;
+    }
+  }
+  .mb-table-field {
+    .mb-field-control {
+      border-radius: 0px;
+      border: 1px solid #e6e6e6;
+    }
+  }
+  .mb-table-btn {
+    font-size: 12px;
+    border-radius: 0;
+  }
+
+  .mb-table-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .page-item.active .page-link {
+    background-color: #003057;
+    border-color: #003057;
+  }
+
+  .mb-table-filter {
+    margin-bottom: 3px;
+  }
+}
