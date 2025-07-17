@@ -1,0 +1,41 @@
+.mb-pagination .page-item.active .page-link,
+.mb-pagination .page-link:hover {
+  background: #003057;
+  color: #ffffff;
+}
+
+.mb-pagination .page-link {
+  color: #003057;
+  padding: 0.375rem 0.75rem;
+  font-size: 15px;
+  text-decoration: none;
+  // width: 34px; Se comenta para permitir distorsionar el círculo según su contenido
+  height: 34px;
+  text-align: center;
+  margin: 0 3px;
+  border-radius: 50% !important;
+  border: 0px;
+}
+
+.mb-form-control {
+  border-radius: 12px;
+  border: 1px solid #686868;
+  width: 55px;
+  height: 28px;
+  padding: 0px 0px 0px 5px;
+  font-size: 14px;
+  font-weight: 400;
+  appearance: auto;
+  margin: 3px 10px 3px 5px;
+
+  &::placeholder {
+    color: #1e1e1e;
+    opacity: 0.6;
+  }
+
+  &:focus,
+  &:hover {
+    border: 1px solid #204d99;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}

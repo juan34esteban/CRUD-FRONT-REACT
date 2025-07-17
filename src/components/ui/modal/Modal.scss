@@ -1,0 +1,14 @@
+.mb-modal {
+  &.sm .modal-dialog {
+    max-width: 300px;
+  }
+  &.md .modal-dialog {
+    max-width: 500px;
+  }
+  &.lg .modal-dialog {
+    max-width: 850px;
+  }
+  &.xlg .modal-dialog {
+    max-width: 1100px;
+  }
+}
